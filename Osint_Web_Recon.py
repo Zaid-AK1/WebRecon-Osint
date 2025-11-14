@@ -48,7 +48,7 @@ def print_banner():
     print(f"{BOLD}{GREEN}  [9] Fake Card Generator")
     print(f"{BOLD}{GREEN}  [10] JS Secrets Finder")
     print(f"  [0] Exit{RESET}")
-    print("-" * 72)
+    print(f"{GREEN}{'-' * 72}{RESET}")
 
 def ip_tracker():
     clear()
@@ -879,7 +879,7 @@ def main():
         elif choice == "10":
             js_secrets_finder()
         elif choice == "0":
-            slow_print(f"{GREEN}Exiting... Stay Like AK (●'◡'●)!{RESET}")
+            slow_print(f"{GREEN}Exiting... Stay Like Zaid (●'◡'●)!{RESET}")
             sys.exit(0)
         else:
             print(f"{BOLD}{GREEN}Invalid option, try again!{RESET}")
